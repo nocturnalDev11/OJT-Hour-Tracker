@@ -127,8 +127,8 @@ export function TimeEntryList() {
 
       {filteredEntries.length === 0 ? (
         <div className="text-center py-12 border border-gray-300 rounded-xl bg-gray-100">
-          <p className="text-gray-500 dark:text-gray-400">No time entries found</p>
-          <p className="text-sm text-gray-400 dark:text-gray-500">Log your first hour to get started</p>
+          <p className="text-gray-500">No time entries found</p>
+          <p className="text-sm text-gray-400">Log your first hour to get started</p>
         </div>
       ) : (
         <div className="border rounded-xl border-gray-300">
@@ -157,16 +157,16 @@ export function TimeEntryList() {
                   </TableCell>
                   <TableCell>
                     <div>
-                      <div className="font-medium text-gray-900 dark:text-white">{entry.task}</div>
+                      <div className="font-medium text-gray-900">{entry.task}</div>
                       {entry.notes && (
-                        <div className="text-xs text-gray-500 dark:text-gray-400">
+                        <div className="text-xs text-gray-500">
                           {entry.notes}
                         </div>
                       )}
                     </div>
                   </TableCell>
                   <TableCell>
-                    <Badge variant="outline" className="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-100">
+                    <Badge variant="outline" className="bg-purple-100 text-purple-800">
                       {entry.category}
                     </Badge>
                   </TableCell>

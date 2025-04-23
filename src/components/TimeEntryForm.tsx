@@ -248,7 +248,7 @@ export function TimeEntryForm({ onSuccess }: { onSuccess?: () => void }) {
           )}
         />
 
-        <Button type="submit" className="bg-purple- hover:bg-purple-dark">Log Hours</Button>
+        <Button type="submit" className="bg-purple-400 hover:bg-purple-500">Log Hours</Button>
       </form>
     </Form>
   );

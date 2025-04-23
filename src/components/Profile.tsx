@@ -164,7 +164,7 @@ export function Profile() {
             
             <Button 
               type="submit" 
-              className="bg-purple hover:bg-purple-dark"
+              className="bg-purple-400 hover:bg-purple-600"
             >
               Save Profile
             </Button>
